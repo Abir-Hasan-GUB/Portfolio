@@ -1,0 +1,184 @@
+/* ---------- Common CSS ------ */
+section {
+    width: 100%;
+    /* background: #000; */
+}
+.showColorPicker{
+    display: block !important;
+    transition:.5s;
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+}
+body {
+    background: rgb(197, 197, 197);
+    position: relative;
+}
+
+/* ---------- Nav Bar ------ */
+#navBar {
+    position: relative;
+}
+.navbar{
+    background: transparent !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 88px;
+    z-index: 1;
+}
+.navbar ul li a{
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+/* ---------- Banner ------ */
+#banner {
+    height: 100vh;
+    color: #fff;
+    background: url('/resources/images/banner-bg.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.77);
+}
+#banner h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 88px;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+    padding-bottom: 20px;
+}
+.name{
+    color: #2AAFC0;
+}
+#banner .banner-text{
+    font-size: 35px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+}
+.firstName{
+    font-size: 35px;
+}
+.banner-details{
+    width: 100%;
+}
+#banner .banner-text span{
+    font-weight: 700;
+}
+
+.social-icon a{
+   font-size: 20px;
+   color: #000;
+   height: 40px;
+   width: 40px;
+   text-align: center;
+   line-height: 40px;
+   font-weight: 400;
+   background: #fff;
+   display: block;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   margin-left: 20px;
+   transition: .5s;
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+}
+.social-icon a:first-child{
+    margin-left: 0;
+}
+
+.social-icon a:hover{
+    background: #2AAFC0;
+    color: #fff;
+}
+.test{
+    /* background: red; */
+    height: auto;
+    width: 100%;
+    padding: 1%;
+}
+.bannerComponant{
+    /* padding-top: 10%; */
+    height: 100vh;
+}
+
+#about{
+    height: 700px;
+    width: 100%;
+    background: red;
+}
+#colorPlate{
+    height: 130px;
+    width: 180px;
+    color: #2AAFC0;
+    background: #fff;
+   
+}
+#colorPicker{
+    /* position: relative; */
+}
+.setting{
+    font-size: 50px;
+    /* color: rgb(0, 0, 0); */
+    /* position: absolute; */
+    left: 0;
+
+}
+.setting{
+    font-size: 30px;
+    color: black;
+    background:  #fff;
+    float: left;
+}
+.setting i{
+    cursor: pointer;
+}
+#colorPicker{
+    /* display: none; */
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    text-align: center;
+    right: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.colorPlate{
+    float: left;
+    width: 200px;
+    height: 130px;
+}
+.colorButton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
