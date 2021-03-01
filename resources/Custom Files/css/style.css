@@ -43,7 +43,7 @@ ul li{
 #banner {
     height: 100vh;
     color: #fff;
-    background: url('/resources/images/banner-bg.gif');
+    background: url(/resources/images/banner-bg.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
