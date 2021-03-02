@@ -13,6 +13,7 @@ section {
 }
 body {
     background: rgb(197, 197, 197);
+    /* background: #111111; */
     position: relative;
 }
 
@@ -124,11 +125,6 @@ ul li{
     height: 100vh;
 }
 
-#about{
-    height: 700px;
-    width: 100%;
-    background: red;
-}
 #colorPlate{
     height: 130px;
     width: 180px;
@@ -181,4 +177,137 @@ ul li{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+/* =========== About ME ======== */
+
+#TitleofDiv{
+    width: 100%;
+    background: #111111;
+    position: relative;
+    padding: 80px 0;
+}
+#TitleofDiv .divTitle h2{
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-bg{
+    font-size: 110px;
+    letter-spacing: 10px;
+    line-height: 0.7;
+    position: absolute;
+    top: 45%;
+    text-transform: uppercase;
+    font-weight: 800;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    color: rgba(255, 255, 255, 0.07);
+    -webkit-transform: translate(-50%, -45%);
+    -moz-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
+    -o-transform: translate(-50%, -45%);
+}
+.ineerTitleColor{
+    color: #ffb400;
+}
+#about{
+    width: 100%;
+    background: #111111;
+}
+.personalInfoText{
+    font-weight: 600;
+    padding-bottom: 22px;
+    font-size: 26px;
+}
+.myPicture{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solid #252525;
+    margin: 0 auto 25px;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.infoTitle{
+    opacity: 0.8;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.value{
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.6;
+}
+#about .about-list li:not(:last-child) {
+    padding-bottom: 20px;
+}
+.mail{
+    font-size: 13px;
+    text-transform: lowercase;
+}
+.cvButton{
+    font-weight: 500;
+    background: #ffb400;
+    border-radius: 26px;
+    height: 46px;
+    line-height: 3;
+    font-size: 15px;
+    padding: 0 40px;
+    letter-spacing: .5px;
+}
+.with-margin{
+    margin-bottom: 30px;
+}
+.box-state{
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    border: 1px solid #252525;
+}
+.box-state h3{
+    color: #ffb400;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+.box-state h3::after{
+    content: '+';
+    position: absolute;
+    right: -24px;
+    font-size: 33px;
+    font-weight: 300;
+    top: 2px;
+}
+.box-state p{
+    padding-left: 45px;
+    text-transform: uppercase;
+    position: relative;
+}
+.box-state p::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 13px;
+    width: 30px;
+    height: 1px;
+    background: #777;
+}
+.separator{
+    border-top: 1px solid #252525;
+    margin: 70px auto 55px;
+    max-width: 40%;
 }
