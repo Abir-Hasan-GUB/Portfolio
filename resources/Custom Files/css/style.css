@@ -42,17 +42,17 @@ ul li{
 
 /* ---------- Banner ------ */
 #banner {
-    height: 100vh;
+    height: 550px;
     color: #fff;
-    background: url(/resources/images/banner-bg.gif);
+    background: url("https://i.imgur.com/tRkhoeE.gif");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 .overlay {
-    height: 100vh;
+    height: 550px;
     width: 100%;
     background: rgba(0, 0, 0, 0.77);
 }
@@ -65,7 +65,7 @@ ul li{
     padding-bottom: 20px;
 }
 .name{
-    color: #2AAFC0;
+    color: #ffb400;
 }
 #banner .banner-text{
     font-size: 35px;
@@ -111,8 +111,8 @@ ul li{
 }
 
 .social-icon a:hover{
-    background: #2AAFC0;
-    color: #fff;
+    background: #ffb400;
+    color: #111;
 }
 .test{
     /* background: red; */
@@ -122,13 +122,13 @@ ul li{
 }
 .bannerComponant{
     /* padding-top: 10%; */
-    height: 100vh;
+    height: 550px;
 }
 
 #colorPlate{
     height: 130px;
     width: 180px;
-    color: #2AAFC0;
+    color: #ffb400;
     background: #fff;
    
 }
@@ -257,6 +257,9 @@ ul li{
 .mail{
     font-size: 13px;
     text-transform: lowercase;
+}
+.mail:hover,.phone:hover{
+    color: #fff;
 }
 .cvButton{
     font-weight: 500;
